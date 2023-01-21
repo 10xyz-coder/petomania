@@ -1,0 +1,23 @@
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+@media (min-height: 700px) {
+footer {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+}
+@media (max-height: 699px) {
+  footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    bottom: 0px;
+    left: 50%;
+  }
+  }
+
+.line1 {
+  display: inline-block;
+}
